@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:10px;
+    left: 300px;
+
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+img:hover{
+    width: 60px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 400px;
+    width: 150px;
+    padding: 2px;
+}
+.accordion{
+    background-color:beige ;
+    /* border: 1px solid burlywood; */
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color:white;
+}
+.btn{
+    color: white;
+}
+body{
+    background-color: beige;
+}
+/* .nav-bar{
+    position: fixed; 
+    z-index: 1;
+} */
